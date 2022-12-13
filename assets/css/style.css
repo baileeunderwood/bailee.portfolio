@@ -329,7 +329,7 @@ object {
 
 a,
 a:hover {
-    color: #F68338;
+    color: #53949a;
 }
 
 a {
@@ -394,7 +394,7 @@ textarea {
 input:focus,
 textarea:focus {
     border-bottom-width: 1px;
-    border-color: #F68338;
+    border-color: #53949a;
 }
 input[type="submit"],
 input[type="reset"],
@@ -406,7 +406,7 @@ button {
     line-height: 1.75em;
     -webkit-transition: background-color .15s ease-out;
     transition: background-color .15s ease-out;
-    background: #F68338;
+    background: #53949a;
     border: 1px solid transparent;
 }
 input[type="submit"]:hover,
@@ -436,7 +436,7 @@ input[type="checkbox"] {
 }
 /* submit and alert success  */
 input[type="submit"] {
-    background: #F68338;
+    background: #53949a;
     color: #fff;
     padding: 8px 20px;
     margin: 0;
@@ -445,7 +445,7 @@ input[type="submit"] {
 .alert-success {
     background: transparent;
     color: #888;
-    border: 1px solid #F68338;
+    border: 1px solid #53949a;
     border-radius: 0px;
 }
 /* placeholder */
@@ -482,8 +482,8 @@ input[type="submit"] {
 
 .btn:hover {
     color: #fff;
-    background-color: #F68338;
-    border: 1px solid #F68338;
+    background-color: #53949a;
+    border: 1px solid #53949a;
 }
 
 
@@ -1139,7 +1139,7 @@ input[type="submit"] {
     .hero-media .owl-carousel .owl-expand a:hover,
     .hero-media .owl-carousel .owl-nav a:focus,
     .hero-media .owl-carousel .owl-expand a:focus {
-        color: #F68338;
+        color: #53949a;
     }
 }
 
@@ -1746,7 +1746,7 @@ input[type="submit"] {
     height: 40px;
     line-height: 40px;
     color: #fff;
-    background-color: #F68338;
+    background-color: #53949a;
     font-size: 15px;
     text-align: center;
     text-decoration: none;
@@ -1762,12 +1762,12 @@ input[type="submit"] {
 
 @media (min-width: 992px) {
     .site-menu-toggle a {
-        background-color: #F68338;
+        background-color: #53949a;
     }
 
     .expanded-hero .site-menu-toggle a,
     .fullpage .site-menu-toggle a {
-        background-color: #F68338;
+        background-color: #53949a;
     }
 }
 
@@ -1779,7 +1779,7 @@ input[type="submit"] {
 .site-menu-toggle a:focus,
 .mobile-menu-opened .site-menu-toggle a:hover,
 .mobile-menu-opened .site-menu-toggle a:focus {
-    background-color: #F68338;
+    background-color: #53949a;
     color: #fff;
 }
 
@@ -1794,7 +1794,7 @@ input[type="submit"] {
 }
 
 .mobile-menu-opened .site-menu-toggle a {
-    background-color: #F68338;
+    background-color: #53949a;
     color: #fff;
     color: inherit;
 }
@@ -1818,7 +1818,7 @@ input[type="submit"] {
 }
 
 .nav-menu .menu-item-has-children {
-    position: relative;
+    position:relative;
 }
 
 .nav-menu,
@@ -1846,7 +1846,7 @@ input[type="submit"] {
 }
 
 .nav-menu .current-menu-item > a {
-    color: #F68338;
+    color: #53949a;
 }
 
 @media (max-width: 1199px) {
@@ -1931,14 +1931,14 @@ input[type="submit"] {
         content: "\e64b";
         font-family: 'Themify';
         font-size: 10px;
-        color: #F68338;
+        color: #53949a;
     }
 
     .nav-menu .menu-item-has-children.collapse > .menu-expand:before {
         content: "\e648";
         font-family: 'Themify';
         font-size: 10px;
-        color: #F68338;
+        color: #53949a;
     }
 
     .nav-menu .menu-item-has-children ul {
@@ -2084,19 +2084,19 @@ input[type="submit"] {
     .nav-menu > ul > li.hover > a:after,
     .nav-menu > ul > li > a:focus:after {
         bottom: 6px;
-        background-color: #F68338;
+        background-color: #53949a;
     }
 
     .light-hero-colors .nav-menu > ul > li > a:hover:after,
     .light-hero-colors .nav-menu > ul > li.hover > a:after,
     .light-hero-colors .nav-menu > ul > li > a:focus:after {
-        background-color: #F68338;
+        background-color: #53949a;
     }
 
     #site-menu .nav-menu > ul > .current-menu-item > a:after,
     #site-menu .nav-menu > ul > .current-menu-parent > a:after {
         bottom: 6px;
-        background-color: #F68338;
+        background-color: #53949a;
     }
 
     .nav-menu .menu-item-has-children ul {
@@ -2159,7 +2159,7 @@ input[type="submit"] {
     .nav-menu .menu-item-has-children li a:hover {
         display: block;
         margin: 0;
-        color: #F68338;
+        color: #53949a;
     }
 
     .nav-menu .menu-item-has-children li .menu-expand {
@@ -2420,13 +2420,13 @@ input[type="submit"] {
 }
 
 .expanded-hero .social-menu a:hover {
-    background-color: #F68338;
+    background-color: #53949a;
     color: #fff;
 }
 
 @media (min-width: 992px) {
     .social-menu a {
-        background-color: #F68338;
+        background-color: #53949a;
     }
 
     .fullpage .social-menu a {
@@ -2436,7 +2436,7 @@ input[type="submit"] {
 
 @media (min-width: 1200px) {
     .social-menu a {
-        background-color: #F68338;
+        background-color: #53949a;
     }
 }
 
@@ -2496,7 +2496,7 @@ input[type="submit"] {
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
-    color: #F68338;
+    color: #53949a;
     font-weight: 400;
     letter-spacing: 5px;
 }
@@ -2667,7 +2667,7 @@ input[type="submit"] {
     font-family: 'Rambla', sans-serif;
     padding: 0;
 
-    color: #F68338;
+    color: #53949a;
 }
 
 .fullpage .my-info {
@@ -3097,7 +3097,7 @@ input[type="submit"] {
 
 .my-info .box .field .dropdown ul .selected a {
     font-weight: 500;
-    background-color: #F68338;
+    background-color: #53949a;
 }
 
 .my-info .box button {
@@ -3110,7 +3110,7 @@ input[type="submit"] {
     font-size: 15px;
     font-weight: 400;
     font-family: 'Oswald', sans-serif;
-    background: #F68338;
+    background: #53949a;
     letter-spacing: 2px;
     color: #fff;
 }
@@ -3298,7 +3298,7 @@ input[type="submit"] {
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
-    color: #F68338;
+    color: #53949a;
     font-weight: 400;
     letter-spacing: 5px;
 }
@@ -3373,7 +3373,7 @@ input[type="submit"] {
     content: '—';
     display: inline-block;
     margin: 0 .6rem 0 .4rem;
-    color: #F68338;
+    color: #53949a;
 }
 
 .header .meta-data > span:first-child:before {
@@ -3394,7 +3394,7 @@ input[type="submit"] {
 }
 
 .header .meta-data a:hover {
-    color: #F68338;
+    color: #53949a;
 }
 
 .header .meta-date {
@@ -3586,7 +3586,7 @@ input[type="submit"] {
 }
 
 .ul1 > li a:hover {
-    color: #F68338;
+    color: #53949a;
     text-decoration: none;
 }
 
@@ -3622,7 +3622,7 @@ input[type="submit"] {
 }
 
 .latest a:hover .txt1 {
-    color: #F68338;
+    color: #53949a;
 }
 
 /* Tags, Keywords */
@@ -3660,9 +3660,9 @@ input[type="submit"] {
 }
 
 .tags li a:hover {
-    background: #F68338;
+    background: #53949a;
     color: #fff;
-    border-color: #F68338;
+    border-color: #53949a;
 }
 
 
@@ -3777,7 +3777,7 @@ input[type="submit"] {
 
 .feature-left span {
     width: 45px;
-    color: #F68338;
+    color: #53949a;
 }
 
 .font-30px {
@@ -3825,8 +3825,8 @@ input[type="submit"] {
 }
 
 .timeline > li:hover .timeline-content:before {
-    background-color: #F68338;
-    border: 1px solid #F68338;
+    background-color: #53949a;
+    border: 1px solid #53949a;
 }
 
 .timeline > li .timeline-content {
@@ -3899,7 +3899,7 @@ input[type="submit"] {
     left: 0;
     width: 100%;
     right: 0;
-    background: rgba(246, 131, 56, 0.8);
+    background: #53949ac8;
     opacity: 0;
     -webkit-transition: .3s;
     -o-transition: .3s;

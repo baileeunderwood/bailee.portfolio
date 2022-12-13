@@ -17,14 +17,14 @@ jQuery(function () {
         screen_has_mouse = true;
     }
     function themeTouchStart() {
-        jQuery(window).off("mousemove.bailee");
+        jQuery(window).off("mousemove.mccan");
         screen_has_mouse = false;
         setTimeout(function () {
-            jQuery(window).on("mousemove.bailee", themeMouseMove);
+            jQuery(window).on("mousemove.mccan", themeMouseMove);
         }, 250);
     }
     if (!navigator.userAgent.match(/(iPad|iPhone|iPod)/g)) {
-        jQuery(window).on("touchstart.bailee", themeTouchStart).on("mousemove.bailee", themeMouseMove);
+        jQuery(window).on("touchstart.mccan", themeTouchStart).on("mousemove.mccan", themeMouseMove);
         if (window.navigator.msPointerEnabled) {
             document.addEventListener("MSPointerDown", themeTouchStart, false);
         }
@@ -46,7 +46,7 @@ jQuery(function () {
         });
     }
     // Handle both mouse hover and touch events for traditional menu + mobile hamburger.
-    jQuery(".site-menu-toggle").on("click.bailee", function (e) {
+    jQuery(".site-menu-toggle").on("click.mccan", function (e) {
         $body.toggleClass("mobile-menu-opened");
         jQuery(window).resize();
         if (!$body.hasClass("mobile-menu-opened")) {
@@ -55,7 +55,7 @@ jQuery(function () {
         }
         e.preventDefault();
     });
-    jQuery("#site-menu .menu-expand").on("click.bailee", function (e) {
+    jQuery("#site-menu .menu-expand").on("click.mccan", function (e) {
         var $parent = jQuery(this).parent();
         if (jQuery(".site-menu-toggle").is(":visible")) {
             $parent.toggleClass("collapse");
@@ -76,7 +76,7 @@ jQuery(function () {
         }
     }, "#site-menu li");
     if (jQuery("html").hasClass("touchevents")) {
-        jQuery("#site-menu li.menu-item-has-children > a:not(.menu-expand)").on("click.bailee", function (e) {
+        jQuery("#site-menu li.menu-item-has-children > a:not(.menu-expand)").on("click.mccan", function (e) {
             if (!screen_has_mouse && !window.navigator.msPointerEnabled && !jQuery(".site-menu-toggle").is(":visible")) {
                 var $parent = jQuery(this).parent();
                 if (!$parent.parents(".hover").length) {
@@ -89,7 +89,7 @@ jQuery(function () {
     }
     else {
         // Toggle visibility of dropdowns on keyboard focus events.
-        jQuery("#site-menu li > a:not(.menu-expand), #top .site-title a, #social-links-menu a:first").on("focus.bailee blur.bailee", function (e) {
+        jQuery("#site-menu li > a:not(.menu-expand), #top .site-title a, #social-links-menu a:first").on("focus.mccan blur.mccan", function (e) {
             if (screen_has_mouse && !jQuery("#top .site-menu-toggle").is(":visible")) {
                 var $parent = jQuery(this).parent();
                 if (!$parent.parents(".hover").length) {
@@ -103,12 +103,12 @@ jQuery(function () {
         });
     }
     // Handle custom my info.
-    jQuery(".my-info .field > a").on("click.bailee", function (e) {
+    jQuery(".my-info .field > a").on("click.mccan", function (e) {
         var $field = jQuery(this).parent();
         $field.toggleClass("show-dropdown").siblings().removeClass("show-dropdown");
         e.preventDefault();
     });
-    jQuery(".my-info .dropdown .values a").on("click.bailee", function (e) {
+    jQuery(".my-info .dropdown .values a").on("click.mccan", function (e) {
         jQuery(this).parent().addClass("selected").siblings().removeClass("selected");
         var $field = jQuery(this).parents(".field");
         jQuery("input[type=hidden]", $field).val(jQuery(this).data("value"));
@@ -157,7 +157,7 @@ jQuery(function () {
                 if (multiple_items) {
                     $body.addClass("hero-has-nav");
                 }
-                jQuery('<div class="owl-expand"><a href="#"><span class="ti"></span></a></div>').insertAfter(jQuery(".owl-nav", event.target)).on("click.bailee", function (e) {
+                jQuery('<div class="owl-expand"><a href="#"><span class="ti"></span></a></div>').insertAfter(jQuery(".owl-nav", event.target)).on("click.mccan", function (e) {
                     e.preventDefault();
                     if ($body.hasClass("expanded-hero-start")) {
                         return;
@@ -262,11 +262,11 @@ jQuery(function () {
                         });
                     }
                 });
-                jQuery(".owl-stage", event.target).on("dblclick.bailee", function (e) {
-                    $hero_carousel.find(".owl-expand:visible").trigger("click.bailee");
+                jQuery(".owl-stage", event.target).on("dblclick.mccan", function (e) {
+                    $hero_carousel.find(".owl-expand:visible").trigger("click.mccan");
                 });
                 var tapedTwice = false;
-                jQuery(".owl-stage", event.target).on("touchstart.bailee", function (e) {
+                jQuery(".owl-stage", event.target).on("touchstart.mccan", function (e) {
                     if (!tapedTwice) {
                         tapedTwice = true;
                         setTimeout(function () {
@@ -274,16 +274,16 @@ jQuery(function () {
                         }, 300);
                     }
                     else {
-                        $hero_carousel.find(".owl-expand:visible").trigger("click.bailee");
+                        $hero_carousel.find(".owl-expand:visible").trigger("click.mccan");
                     }
                 });
                 jQuery(".ti-loading", $hero_media).addClass("finished");
             }
         });
     }
-    jQuery(".menu-overlay").on("click.bailee", function (e) {
+    jQuery(".menu-overlay").on("click.mccan", function (e) {
         if (e.offsetX < 0 && $body.hasClass("mobile-menu-opened")) {
-            jQuery(".site-menu-toggle").trigger("click.bailee");
+            jQuery(".site-menu-toggle").trigger("click.mccan");
         }
     });
     jQuery(window).on("resize", function () {
