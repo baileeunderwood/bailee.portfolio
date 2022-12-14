@@ -3887,6 +3887,21 @@ input[type="submit"] {
 
 /* 17. Project styles */
 
+.carousel-caption d-none d-md-block{
+    background-color: #53949a7c;
+}
+.project3-1{
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+.project3-2{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.header3-1{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
 .project {
     position: relative;
     margin-bottom: 30px;
